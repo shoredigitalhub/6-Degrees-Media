@@ -8,13 +8,13 @@
 
 **Author URI:** [https://bitbucket.org/AXeNaqvi/](https://bitbucket.org/AXeNaqvi/)
 
-**Version:** 1.1.6
+**Version:** 1.1.13
 
-**Stable tag:** 1.1.6
+**Stable tag:** 1.1.13
 
 **Requires at least:** Wordpress 4.7
 
-**Tested up to:** Wordpress 5.0.2
+**Tested up to:** Wordpress 5.5
 
 **Text Domain:** light-axe
 
@@ -34,6 +34,47 @@ This is a light weight theme to be used as parent theme. Major styling and templ
 
 ##Changelog:
 ---
+###Ver 1.1.13
+1. Bumped up with support for WP 5.5.
+2. Minor fix in admin js
+---
+
+###Ver 1.1.12
+1. Bumped up with support for WP 5.3.2.
+---
+
+###Ver 1.1.11
+1. Added support for tertiary color.
+---
+
+###Ver 1.1.10
+1. Working with WP 5.2.4
+2. Updated left and right templates to use page-content template.
+---
+
+###Ver 1.1.9
+1. Working with WP 5.2.3
+2. Added Elementor Page Builder support.
+3. Fixed page left side bar value gone missing on update.
+4. Fixed spelling for page meta for left_sidebar.
+5. Fixed repeat spelling in bg settings.
+6. Fixed edit link appearance only for editor and administrators.
+---
+
+---
+###Ver 1.1.8
+1. Working with WP 5.1.1
+2. Added Page Builder by Site Origin support.
+3. Body zooms with withzoom class on higher screen sizes.
+4. Added support to execute shortcodes in widget titles.
+---
+
+---
+###Ver 1.1.7
+1. Working with WP 5.1
+2. Upgraded fontawesome to ver 5.7.1
+---
+
 ###Ver 1.1.6
 1. Added a trigger in axeCarousel after carousel setup.
 2. Fixed width change issue with screen resize in axeCarousel horizontal mode.

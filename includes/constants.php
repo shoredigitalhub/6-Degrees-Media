@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 if(!defined('THEMEAXE')){
 	define('THEMEAXE','Light AXe&trade;');
 	define('THEMEAXENAME','light-axe');
-	define('THEMEAXEVER','1.1.6');
+	define('THEMEAXEVER','1.1.13');
 	define('THEMEAXELANGDOMAIN', 'light-axe');
 
 	define('THEMEAXEROOT',get_template_directory());

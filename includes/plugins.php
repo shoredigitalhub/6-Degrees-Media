@@ -21,6 +21,16 @@ function themeaxe_register_required_plugins(){
 			'is_callable'        => '',
 		),*/
 		array(
+			'name'      => 'Elementor Page Builder',
+			'slug'      => 'elementor',
+			'required'  => false,
+		),
+		array(
+			'name'      => 'Page Builder',
+			'slug'      => 'siteorigin-panels',
+			'required'  => false,
+		),
+		array(
 			'name'      => 'MetaSlider',
 			'slug'      => 'ml-slider',
 			'required'  => false,

@@ -15,15 +15,10 @@ get_header();
             if (have_posts()) {
                 while (have_posts()) {
                     the_post();
-                    ?>
-                    <div class="mcontent whitebg">
-                       <?php do_action('axe_main_title'); ?>
-                       <div class="contents">
-                        <?php the_content(); ?>
-                    </div>
-
-                </div>
-                <?php
+                     get_template_part('page','content');
+                     if ( comments_open() || get_comments_number() ) {
+                        comments_template();
+                    }
             }
         }
         ?>
@@ -37,7 +32,7 @@ get_header();
 <?php do_action('axe_after_maincontent_inner'); ?>
 </div>
 <?php
-do_action('axe_after_page_content');
+do_action('axe_after_page_content_full');
 ?>
 <div class="before_axe_get_footer_container">
     <?php

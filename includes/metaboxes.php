@@ -187,7 +187,7 @@ function themeaxe_metaboxcustomclass($post){
 }
 function themeaxe_metaboxcustomsidebars($post){
 	$rightsidebar = get_post_meta($post->ID, 'right_sidebar',true);
-	$leftsidebar = get_post_meta($post->ID, 'leftt_sidebar',true);
+	$leftsidebar = get_post_meta($post->ID, 'left_sidebar',true);
 	echo '<div>';
 	echo '<label for="right_sidebar">';
 	_e( 'Right Sidebar', 'light-axe' );
@@ -199,7 +199,7 @@ function themeaxe_metaboxcustomsidebars($post){
 	echo '<label for="left_sidebar">';
 	_e( 'Left Sidebar', 'light-axe' );
 	echo '</label> ';
-	echo '<input type="text" id="leftt_sidebar" name="left_sidebar" value="' . esc_attr( $leftsidebar ) . '" class="widefat" maxlength="250"/>';
+	echo '<input type="text" id="left_sidebar" name="left_sidebar" value="' . esc_attr( $leftsidebar ) . '" class="widefat" maxlength="250"/>';
 	echo '</div>';
 }
 function themeaxe_add_meta_box(){

@@ -6,7 +6,7 @@ get_header();
 ?>
 <div id="maincontentinner">
 	<?php do_action('axe_before_maincontent_inner'); ?>
-	<div class="wrapwidth">
+	<div class="">
 		<?php
 		if (have_posts()) {
 			while (have_posts()) {

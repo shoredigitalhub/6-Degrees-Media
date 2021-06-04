@@ -136,9 +136,9 @@ function themeaxe_init_settings(){
 				),
 				'bgrepeat'=>array(
 					'key'=>'body-background-image-repeat',
-					'value'=>'no-reapeat',
+					'value'=>'no-repeat',
 					'type'=>'select',
-					'values'=>'no-reapeat,repeat,repeat-x,repeat-y',
+					'values'=>'no-repeat,repeat,repeat-x,repeat-y',
 				),
 				'bgattachment'=>array(
 					'key'=>'body-background-image-attachment',
@@ -177,6 +177,11 @@ function themeaxe_init_settings(){
 				'secondarycolor'=>array(
 					'key'=>'secondary-color',
 					'value'=>'8DC63F',
+					'type'=>'color',
+				),
+				'tertiarycolor'=>array(
+					'key'=>'tertiary-color',
+					'value'=>'FFFFFF',
 					'type'=>'color',
 				),
 				'featuredimgstyle'=>array(
@@ -550,7 +555,7 @@ function themeaxe_updateoptions(){
 							'key'=>'body-background-image-repeat',
 							'value'=>sanitize_text_field($_POST['body-background-image-repeat']),
 							'type'=>'select',
-							'values'=>'no-reapeat,repeat,repeat-x,repeat-y',
+							'values'=>'no-repeat,repeat,repeat-x,repeat-y',
 						),
 						'bgattachment'=>array(
 							'key'=>'body-background-image-attachment',
@@ -589,6 +594,11 @@ function themeaxe_updateoptions(){
 						'secondarycolor'=>array(
 							'key'=>'secondary-color',
 							'value'=>sanitize_text_field($_POST['secondary-color']),
+							'type'=>'color',
+						),
+						'tertiarycolor'=>array(
+							'key'=>'tertiary-color',
+							'value'=>sanitize_text_field($_POST['tertiary-color']),
 							'type'=>'color',
 						),
 						'featuredimgstyle'=>array(

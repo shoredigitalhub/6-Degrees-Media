@@ -545,11 +545,13 @@ add_action('axe_blogpost_content','themeaxe_main_blogpost_content',10);
 add_action('axe_page_content','themeaxe_main_blogpost_content',10);
 
 function themeaxe_edit_content_link(){
-	?>
-	<div class="axe_edit_content">
-		<?php edit_post_link(__('Edit','light-axe')); ?>
-	</div>
-	<?php
+	if( current_user_can('editor') || current_user_can('administrator') ) {
+		?>
+		<div class="axe_edit_content">
+			<?php edit_post_link(__('Edit','light-axe')); ?>
+		</div>
+		<?php
+	}
 }
 add_action('axe_blogpost_content','themeaxe_edit_content_link',20);
 add_action('axe_page_content','themeaxe_edit_content_link',20);

@@ -14,7 +14,7 @@
 			$(this).select();
 		});
 		$('.axesortme').sortable({'handle':'.axesorthandle'});
-		$('.axeclosehandle').live('click',function(){
+		$('.axeclosehandle').on('click',function(){
 			if(confirm('Are you sure you want to proceed?')){
 				var t = $(this);
 				$(t.parent('.themeaxe-form-row ')).remove();
@@ -129,7 +129,7 @@
 		var set_to_post_id = 10; /*// Set this*/
 		var axet = null;
 
-		$('.themeaxemedialoader').live('click', function( event ){
+		$('.themeaxemedialoader').on('click', function( event ){
 			axet =$(this);
 
 			event.preventDefault();
