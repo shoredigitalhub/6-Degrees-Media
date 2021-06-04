@@ -1,0 +1,71 @@
+.w{float:left;box-sizing:border-box;}
+.w1{width:8.3333333333333333333333333333333%}
+.w2{width:16.666666666666666666666666666667%}
+.w3{width:25%}
+.w4{width:33.333333333333333333333333333333%}
+.w5{width:41.666666666666666666666666666667%}
+.w6{width:50%}
+.w7{width:58.333333333333333333333333333333%}
+.w8{width:66.666666666666666666666666666667%}
+.w9{width:75%}
+.w10{width:83.333333333333333333333333333333%}
+.w11{width:91.666666666666666666666666666667%}
+.w12{width:100%}
+.wpadfirst{padding-right:5px;}
+.wpad{padding:0px 2.5px;}
+.wpadlast{padding-left:5px;}
+.clear{clear:both;}
+.clear:after{content:'';display:block;clear:both;}
+.axepadleft{padding-left:10px;}
+.axepadright{padding-right:10px;}
+.axepad{padding-left:5px;padding-right:5px;}
+.width98p{width:97% !important;margin:10px auto;}
+.axemetaeditorblock{display: none;background: #F1F1F1;padding: 10px;}
+.axemetaeditorblock label{padding:5px 0px;font-weight: bold;font-size:11px;}
+.axethemeadminwrapper #postbox-container-11.axeleftcol{float:left;margin-right:0px;width:290px;}
+.axethemeadminwrapper #postbox-container-2{float:right;margin-right:-300px;}
+h1.axethemeheading{background-color:#333;color:#FFF;padding:10px 1%;font-size:20px;line-height:26px;margin-top:0px;}
+.axethemetransition,.axethemetoggler{transition:all 0.7s;}
+.axethemetoggle{display: none;}
+.axethemetoggle:after,.axethemetoggle .inside:after,#axeaftercontent:after,#axeaftercontent .inside:after{content:'';display:block;clear:both;}
+.activeaxethemetoggle{display: block;}
+.axethemetoggler{margin-bottom: 1px;display:block;}
+.axethemetoggler a{cursor:pointer;background-color:#333;color:#777;padding:5px;text-decoration:none!important;display:block;}
+.axethemetoggler:hover a{color:#FFF;background-color: #222;}
+.activeaxethemetoggler a,.activeaxethemetoggler:hover a{cursor: default;color:#FFF;background-color: #0074a2;}
+.axethemeadminwrapper table{width:100%;border-collapse:collapse;}
+.axethemeadminwrapper th, .axethemeadminwrapper td{text-align:left;padding:10px;border:1px solid #CCC;}
+.axethemeadminwrapper th{background:#222;color:#999;font-size: 15px;}
+.axethemeadminwrapper tr:nth-child(odd){background-color:#F1F1F1;}
+.axethemeadminwrapper tr:nth-child(odd) .axemetaeditorblock{background-color:#FFF;}
+.axethemeadminwrapper input,.axethemeadminwrapper select{width:100%;/* border-color:#FFF; */}
+.axethemeadminwrapper .quicktags-toolbar input{width:auto;}
+.axethemeadminwrapper input[type="radio"]{width:auto;/* border-color:#CCC; */}
+.axethemeadminwrapper input:focus,.axethemeadminwrapper select:focus{border-color:#CCC;}
+.axethemeadminwrapper .editorshow{display: inline-block;padding:2px 5px;margin-bottom: 5px;border:1px solid #CCC;border-radius: 5px;cursor: pointer;}
+.axethemeadminwrapper textarea{width:100%;min-height:200px;}
+.clear.axemetaeditorrow{margin:5px auto;}
+.vtop td,.vtop th{vertical-align:top}
+.axethemeadminwrapper th th,.axethemeadminwrapper td td{padding:2px 10px;}
+li{list-style:none;}
+li.col3{width:33%;float:left;text-transform: capitalize;}
+.axesorthandle{cursor: move;}
+.axeclosehandle{cursor: pointer;}
+.rounded5{-o-border-radius:5px;-ms-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.axeadminbtn, .rounded2{-o-border-radius:2px;-ms-border-radius:2px;-webkit-border-radius:2px;-khtml-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
+.axeadminbtn{float:right;background: #2EA2CC;border:1px solid #0074A2;-webkit-box-shadow: inset 0 1px 0 rgba(120, 200, 230, .5),0 1px 0 rgba(0, 0, 0, .15);box-shadow: inset 0 1px 0 rgba(120, 200, 230, .5),0 1px 0 rgba(0, 0, 0, .15);color: white;text-decoration: none;cursor:pointer;display: inline-block;padding:5px 10px;}
+.axeaddbtn:hover{background: #1e8cbe;border-color: #0074a2;-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.6);box-shadow: inset 0 1px 0 rgba(120,200,230,.6);color: #fff;}
+.btnmargintop{margin-top:10px;}
+.themeaxemedialoader,.color{cursor:pointer;}
+.axenote{font-size:11px;font-style: italic;}
+.axethemeadminwrapper input[type=radio],.axethemeadminwrapper input[type=checkbox]{width:16px;}
+/* ul.aftercontent_add_buttons */
+ul.aftercontent_add_buttons{text-align:right;margin:0px;}
+ul.aftercontent_add_buttons li{list-style:none;display:inline-block;margin:0px 3px;}
+ul.aftercontent_add_buttons li .axeadminbtn{float:none;}
+/* ul.aftercontent_add_buttons */
+
+@media screen and (max-width:900px){
+	.axecols{float:none !important;clear:both !important;width:100% !important;margin:0px auto 10px !important;}
+	.axethemeadminwrapper #poststuff #post-body.columns-2{margin-right:0px;}
+}
